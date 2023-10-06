@@ -13,18 +13,18 @@
 </template>
 
 <script>
-import LearningResource from './LearningResource.vue'
+import LearningResource from './LearningResource.vue';
 
- export default {
-    components: {
-    LearningResource
-},
-    props: ['resources']
- }
+export default {
+  components: {
+    LearningResource,
+  },
+  props: ['resources'],
+};
 </script>
 
 <style scoped>
-  ul {
+ul {
   list-style: none;
   margin: 0;
   padding: 0;
