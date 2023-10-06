@@ -1,5 +1,5 @@
 <template>
-  <the-header title="Remember how to use props"></the-header>
+  <the-header title="Master Vue"></the-header>
   <stored-resources :resources="storedResources"></stored-resources>
 </template>
 
